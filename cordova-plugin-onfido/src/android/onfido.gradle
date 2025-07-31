@@ -1,0 +1,16 @@
+repositories {
+    google() // <- necessário para resolver Google Play Services
+    mavenCentral()
+    jcenter()
+
+    maven {
+        url "https://dl.bintray.com/onfido/maven"
+    }
+}
+dependencies {
+  implementation 'com.onfido.sdk.capture:onfido-capture-sdk:7.4.0'
+
+  implementation ('com.google.android.gms:play-services-base:17.6.0') {
+      exclude group: 'com.android.support' // to avoid conflicts with your current support library
+    }
+}
