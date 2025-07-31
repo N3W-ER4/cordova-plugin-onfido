@@ -11,7 +11,7 @@
   "description": "Cordova plugin for Onfido",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rewireltd1/cordova-plugin-onfido.git"
+    "url": "git+https://github.com/N3W-ER4/cordova-plugin-onfido.git"
   },
   "keywords": [
     "onfido",
@@ -25,5 +25,5 @@
   "bugs": {
     "url": "https://github.com/rewireltd1/cordova-plugin-onfido/issues"
   },
-  "homepage": "https://github.com/rewireltd1/cordova-plugin-onfido#readme"
+  "homepage": "https://github.com/N3W-ER4/cordova-plugin-onfido.git"
 }
